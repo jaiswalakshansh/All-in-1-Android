@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/min" />
+    <TextView
+        android:id="@+id/wel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="500dp"
+        android:background="@color/colorAccent"
+        android:text="WELCOME USER" />
+
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="500dp"
+        android:onClick="back"
+        android:text="BACK" />
+
+    <Button
+        android:id="@+id/cbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/curimg"
+        android:text="GUESS" />
+
+    <ImageView
+        android:id="@+id/curimg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/numb" />
+
+    <ImageView
+        android:id="@+id/numimg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/curr2" />
+
+    <Button
+        android:id="@+id/numbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numimg"
+        android:layout_marginLeft="132dp"
+        android:text="CURRENCY" />
+
+    <ImageView
+        android:id="@+id/gaanaimg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/gaana" />
+
+    <Button
+        android:id="@+id/gaanabutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gaanaimg"
+        android:layout_marginLeft="280dp"
+        android:text="MUSIC" />
+</RelativeLayout>

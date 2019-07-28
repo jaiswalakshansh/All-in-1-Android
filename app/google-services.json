@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "267414687288",
+    "firebase_url": "https://firebs-80977.firebaseio.com",
+    "project_id": "firebs-80977",
+    "storage_bucket": "firebs-80977.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267414687288:android:e3fc9db122c80062",
+        "android_client_info": {
+          "package_name": "com.akshansh.fireb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267414687288-cb9cckscnm0kv1pgp01qfsqpbfatn5vs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfVSR-cS97iwjXfS8wUVgHWXFNcqEWuk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267414687288-cb9cckscnm0kv1pgp01qfsqpbfatn5vs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
